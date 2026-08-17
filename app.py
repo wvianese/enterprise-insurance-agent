@@ -1,13 +1,5 @@
-from dotenv import load_dotenv
-from openai import OpenAI
+from agent import Agent
 
-load_dotenv()
+agent = Agent()
 
-client = OpenAI()
-
-response = client.responses.create(
-    model="gpt-5.4-mini",
-    input="Tell me a haiku"
-)
-
-print(response.output_text)
+print(agent.run("Has customer 104 had any previous claims?"))
