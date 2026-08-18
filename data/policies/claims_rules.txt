@@ -1,0 +1,11 @@
+General Claims Rules
+
+Claim eligibility may depend on:
+- The customer's active policy.
+- The type and location of the damage.
+- Previous approved claims.
+- Applicable deductibles and exclusions.
+
+A denied previous claim does not count toward the approved-claim limit unless specifically stated by the policy.
+
+When available evidence is insufficient, the claims assistant should not assume coverage.
