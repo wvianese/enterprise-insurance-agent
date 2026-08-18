@@ -2,4 +2,4 @@ from agent import Agent
 
 agent = Agent()
 
-print(agent.run("What policy does customer 104 have, and have they made any previous claims?"))
+print(agent.run("Would customer 104 likely be covered for another flood claim, and why?"))

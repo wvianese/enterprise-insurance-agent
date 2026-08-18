@@ -4,6 +4,7 @@ from openai import OpenAI
 
 from tools.claims_api import get_claims
 from tools.customer_api import get_customer
+from tools.policy_search import search_policy_documents
 
 load_dotenv()
 
@@ -44,6 +45,27 @@ class Agent:
                     "additionalProperties": False
                 },
                 "strict": True
+            },
+            {
+                "type": "function",
+                "name": "search_policy_documents",
+                "description": "Search insurance policy documents for information relevant to the user's question",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "query": {
+                            "type": "string",
+                            "description": "The policy information to search for"
+                        },
+                        "top_k": {
+                            "type": "integer",
+                            "description": "The maximum number of relevant policy chunks to return"
+                        }
+                    },
+                    "required": ["query", "top_k"],
+                    "additionalProperties": False
+                },
+                "strict": True
             }
         ]
     def run(self, user_input):
@@ -75,7 +97,7 @@ class Agent:
             function_calls = [item for item in response.output if item.type == "function_call"]
 
             if not function_calls:
-                return response.output_text
+                return response.output_text #Loops until all function calls are resolved and returns the final output text
 
             for item in function_calls:
 
@@ -86,6 +108,9 @@ class Agent:
 
                 elif item.name == "get_customer":
                     result = get_customer(**arguments)
+
+                elif item.name == "search_policy_documents":
+                    result = search_policy_documents(**arguments)
 
                 messages.append(
                     {
