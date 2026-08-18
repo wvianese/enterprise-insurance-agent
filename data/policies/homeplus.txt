@@ -1,12 +1,61 @@
 HomePlus Insurance Policy
 
+General Coverage
+
+HomePlus provides comprehensive protection for the insured primary residential property, permanently installed fixtures, and eligible personal property. Coverage applies only to losses caused by events included in this policy and remains subject to applicable exclusions, deductibles, and claim conditions.
+
 Flood Coverage
 
-HomePlus covers accidental flood damage to the primary residential property.
+HomePlus covers accidental flood damage to the primary residential property. Covered flood events may include overflowing rivers, surface water caused by severe rainfall, and other sudden external flooding events.
 
-Flood claims are not covered when:
-- The damage occurs in an unfinished basement.
-- The property is located in a high-risk flood zone without additional flood protection.
-- The customer has made two or more approved flood claims within the previous five years.
+Flood claims are not covered when the damage occurs in an unfinished basement.
 
-The standard flood deductible is £1,500.
+Properties located in a high-risk flood zone require additional flood protection for flood damage to remain covered.
+
+A customer who has made two or more approved flood claims within the previous five years is not eligible for another standard flood claim unless additional flood protection has been purchased.
+
+A denied previous flood claim does not count toward this approved-claim limit.
+
+The standard deductible for an approved flood claim is £1,500.
+
+Water Damage
+
+HomePlus covers sudden and accidental water damage caused by internal plumbing failures, burst pipes, or unexpected escape of water from permanently installed appliances.
+
+Damage caused by gradual leaks, condensation, poor maintenance, or a known plumbing problem that the customer failed to repair is not covered.
+
+Customers must take reasonable steps to stop additional water damage after discovering a leak.
+
+Fire Coverage
+
+HomePlus covers direct physical damage caused by accidental residential fires, smoke resulting from a covered fire, and reasonable emergency measures taken to prevent the fire from spreading.
+
+Fire damage resulting from an intentional act by an insured person is excluded.
+
+The standard deductible for an approved fire claim is £1,000.
+
+Theft Coverage
+
+HomePlus covers theft of eligible personal property from the insured residence when there is reasonable evidence that a theft occurred.
+
+Customers may be required to provide a police report, evidence of ownership, and evidence of forced entry depending on the circumstances.
+
+Theft from an unlocked detached structure or an unattended vehicle is not covered under standard HomePlus protection.
+
+Temporary Accommodation
+
+If the insured residence becomes uninhabitable because of a covered loss, HomePlus may reimburse reasonable temporary accommodation expenses while necessary repairs are completed.
+
+Temporary accommodation coverage is limited to expenses that exceed the customer's normal housing costs and must be supported by receipts.
+
+General Exclusions
+
+HomePlus does not cover normal wear and tear, gradual deterioration, pest damage, intentional damage, or losses caused by failure to perform reasonable property maintenance.
+
+Damage arising primarily from commercial activity conducted at the insured residence may require separate business insurance.
+
+Claim Conditions
+
+Customers must report losses promptly, provide accurate information, cooperate with reasonable claim investigations, and take reasonable steps to prevent additional damage.
+
+Coverage should not be assumed solely because a type of damage appears in this policy. All relevant exclusions, prior-claim restrictions, deductibles, and policy conditions must also be considered.

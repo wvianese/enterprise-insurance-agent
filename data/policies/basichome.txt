@@ -1,9 +1,55 @@
 BasicHome Insurance Policy
 
+General Coverage
+
+BasicHome provides essential protection for the insured primary residential property and its permanently installed fixtures. Coverage applies only to losses caused by events specifically included in this policy and remains subject to all exclusions, deductibles, and claim conditions.
+
 Flood Coverage
 
-BasicHome does not include standard flood coverage.
+BasicHome does not include standard flood coverage. Damage caused by external flooding, overflowing rivers, surface water, storm surge, or groundwater is excluded unless the customer has purchased the optional Flood Protection Add-On before the loss occurs.
 
-Customers must purchase the optional Flood Protection Add-On for flood damage to be covered.
+Customers with the Flood Protection Add-On may receive coverage for accidental flood damage to the primary residential property.
 
-Water leaks caused by internal plumbing failures may be covered subject to a £1,000 deductible.
+The Flood Protection Add-On does not cover flood damage to unfinished basements, detached structures, or personal property stored below ground level.
+
+Water Damage
+
+Sudden and accidental water damage caused by an internal plumbing failure may be covered. This can include a burst pipe, failed internal water connection, or unexpected escape of water from a permanently installed appliance.
+
+Damage caused by gradual leaks, poor maintenance, condensation, or a plumbing problem that the customer knew about and failed to repair is not covered.
+
+The standard deductible for an approved internal water damage claim is £1,000.
+
+Fire Coverage
+
+BasicHome covers direct physical damage caused by accidental residential fires, smoke from a covered fire, and reasonable emergency measures taken to prevent the fire from spreading.
+
+Fire damage resulting from intentional acts by an insured person is excluded.
+
+Damage caused solely by scorching or heat without an accidental fire may also be excluded.
+
+Theft Coverage
+
+BasicHome provides limited theft coverage when there is evidence of forced entry into the insured residence.
+
+Customers may be required to provide a police report and evidence of ownership for stolen property.
+
+Theft from an unlocked property, unattended detached structure, or vehicle is not covered under the standard policy.
+
+General Exclusions
+
+BasicHome does not cover normal wear and tear, deterioration, mold caused by long-term moisture, pest damage, intentional damage, or losses resulting from failure to perform reasonable property maintenance.
+
+Claims arising from commercial activity conducted at the property may require separate business coverage.
+
+Deductibles
+
+Unless another section specifies a different amount, the standard BasicHome property deductible is £1,000 per approved claim.
+
+Deductibles are applied before the insurer pays the remaining covered loss.
+
+Claim Conditions
+
+Customers must report losses promptly, take reasonable steps to prevent additional damage, and provide requested evidence.
+
+Coverage should not be assumed solely because a type of damage is mentioned in the policy. All applicable exclusions and conditions must also be considered.

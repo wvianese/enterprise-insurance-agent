@@ -1,11 +1,59 @@
 General Claims Rules
 
-Claim eligibility may depend on:
-- The customer's active policy.
-- The type and location of the damage.
-- Previous approved claims.
-- Applicable deductibles and exclusions.
+Claim Assessment
 
-A denied previous claim does not count toward the approved-claim limit unless specifically stated by the policy.
+Claim eligibility depends on the customer's active policy, the type and cause of damage, the location of the damage, applicable exclusions, previous claims, and any relevant deductibles.
 
-When available evidence is insufficient, the claims assistant should not assume coverage.
+A claim should not be approved solely because the customer's policy generally covers the reported type of loss. All applicable policy conditions and exclusions must also be evaluated.
+
+Previous Claims
+
+Previous approved claims may affect eligibility when the customer's policy contains a claim-frequency restriction.
+
+Only approved claims count toward an approved-claim limit unless the applicable policy explicitly states otherwise.
+
+A denied previous claim does not count toward an approved-claim limit unless specifically stated by the policy.
+
+Claim History
+
+Claims history should be considered only when relevant to a rule contained in the customer's policy.
+
+The existence of an unrelated previous claim should not automatically cause a new claim to be denied.
+
+For example, a previous approved theft claim should not be treated as an approved flood claim when evaluating a flood-specific claim limit.
+
+Evidence Requirements
+
+Customers may be required to provide photographs, repair estimates, receipts, police reports, proof of ownership, or other reasonable evidence depending on the type of claim.
+
+A lack of required evidence may prevent a final coverage determination.
+
+Damage Location
+
+The location of damage may affect coverage.
+
+Policy-specific restrictions involving basements, detached structures, vehicles, commercial areas, or other locations must be checked before determining whether a loss is covered.
+
+Deductibles
+
+An approved claim may still require the customer to pay the applicable deductible.
+
+A deductible does not mean that a loss is excluded. It represents the portion of an otherwise covered loss that the customer is responsible for paying.
+
+Insufficient Information
+
+When available customer data, claims history, or policy information is insufficient to determine coverage, the claims assistant should clearly state what additional information is required.
+
+The claims assistant should not invent missing customer information, claim details, policy terms, or coverage decisions.
+
+Conflicting Information
+
+If customer records, claims history, and policy documentation appear to conflict, the claims assistant should identify the conflict rather than silently choosing one source.
+
+Policy-specific coverage terms should be applied to the customer's active policy rather than to another insurance product.
+
+Coverage Decisions
+
+The claims assistant may explain whether available information suggests that a claim is likely covered, excluded, or requires additional information.
+
+The assistant should explain the evidence and policy rules used in reaching that conclusion rather than providing an unsupported decision.
