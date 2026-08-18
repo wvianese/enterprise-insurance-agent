@@ -44,43 +44,32 @@ class Agent:
             }
         ]
 
-        response = self.client.responses.create(
-            model="gpt-5.4-mini",
-            input=messages,
-            tools=self.tools
-        )
+        while True:
 
-        messages += response.output
-
-        tool_requested = False
-
-        for item in response.output:
-            if item.type != "function_call":
-                continue
-
-            tool_requested = True
-
-            arguments = json.loads(item.arguments)
-
-            if item.name == "get_claims":
-                result = get_claims(**arguments)
-
-            messages.append(
-                {
-                    "type": "function_call_output",
-                    "call_id": item.call_id,
-                    "output": json.dumps(result)
-                }
+            response = self.client.responses.create(
+                model="gpt-5.4-mini",
+                input=messages,
+                tools=self.tools
             )
 
-        if not tool_requested:
-            return response.output_text
-        
-        response = self.client.responses.create(
-            model="gpt-5.4-mini",
-            input=messages,
-            tools=self.tools
+            messages += response.output
 
-        )
+            function_calls = [item for item in response.output if item.type == "function_call"]
 
-        return response.output_text
+            if not function_calls:
+                return response.output_text
+
+            for item in function_calls:
+                
+                arguments = json.loads(item.arguments)
+
+                if item.name == "get_claims":
+                    result = get_claims(**arguments)
+
+                messages.append(
+                    {
+                        "type": "function_call_output",
+                        "call_id": item.call_id,
+                        "output": json.dumps(result)
+                    }
+                )
