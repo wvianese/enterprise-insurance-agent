@@ -1,15 +1,15 @@
 import numpy as np
 
 from rag.embeddings import embed_texts
-from rag.vector_store import build_vector_store
+from rag.vector_store import load_vector_store
 
 def cosine_similarity(vector_a, vector_b):
     return np.dot(vector_a, vector_b) / (np.linalg.norm(vector_a) * np.linalg.norm(vector_b))
     #Compare two vectors by calculating the cosine of the angle between them
-    #The cosine similarity ranges from -1 to 1, where 1 means the vectors are identical, 0 means they are orthogonal (no similarity), and -1 means they are diametrically opposed.
-
+    #Cosine similarity ranges from -1 to 1, where 1 means the vectors point in the same direction, 0 means they are orthogonal, and -1 means they point in opposite directions
+    
 def search_policies(query, top_k=3):
-    store = build_vector_store() #Build the vector store from the policy documents
+    store = load_vector_store() #Load the pre-built vector store
     query_embedding = embed_texts([query])[0] #Create an embedding for the query
 
     scored_chunks = []
