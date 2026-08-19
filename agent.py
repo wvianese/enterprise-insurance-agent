@@ -84,7 +84,9 @@ class Agent:
             }
         ]
 
-        while True:
+        max_iterations = 5 #To safeguard against the LLM infinitely requesting tools
+
+        for _ in range(max_iterations):
 
             response = self.client.responses.create(
                 model="gpt-5.4-mini",
@@ -100,17 +102,23 @@ class Agent:
                 return response.output_text #Loops until all function calls are resolved and returns the final output text
 
             for item in function_calls:
+                try:
+                    arguments = json.loads(item.arguments)
 
-                arguments = json.loads(item.arguments)
+                    if item.name == "get_claims":
+                        result = get_claims(**arguments)
 
-                if item.name == "get_claims":
-                    result = get_claims(**arguments)
+                    elif item.name == "get_customer":
+                        result = get_customer(**arguments)
 
-                elif item.name == "get_customer":
-                    result = get_customer(**arguments)
+                    elif item.name == "search_policy_documents":
+                        result = search_policy_documents(**arguments)
 
-                elif item.name == "search_policy_documents":
-                    result = search_policy_documents(**arguments)
+                    else:
+                        result = {"error": f"Unknown tool requested: {item.name}"} #Incase the LLM requests a tool that doesn't exist, it will return an error message instead of crashing the program allowing the LLM to continue reasoning and using other tools
+
+                except Exception as error: #If error occurs inside the preceding try block, catch it instead of letting the program crash
+                    result = {"error": f"Tool execution failed: {str(error)}"}
 
                 messages.append(
                     {
@@ -119,3 +127,5 @@ class Agent:
                         "output": json.dumps(result)
                     }
                 )
+
+        return "I couldn't complete the request within the allowed number of reasoning steps."
